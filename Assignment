@@ -1,0 +1,35 @@
+Angular Js assignment for Employee Management:
+
+Create an Application:
+1.	Display a Header “Employee Management”
+2.	Display “First Name”, “Middle Name”, “Last Name” and “Gender” using ng-app directive and data binding expression to display the names.
+3.	Add three more fields “State”, “Country” and “Image” and bind the data using data binding expression to display all the fields.
+    Note: To bind Image filed bind with “src” and “ng-src” and check the difference.
+4.	Add one textbox to view and name it as “First Name” and display the “First Name” field to it and if we modify the value inside the textbox it should update the “First Name” which we displaying in the view using data binding (use two-way data binding).
+5.	Create an employee array and add 4 to 5 employee object (EmployeeName, FirstName, LastName, Gender, Salary) and display the employee data in a table format in the view using the ng-repeat directive.
+    a. Display Employee Name, Gender, and Salary
+       i.	Display First Name and Last Name under the above one using nested ng-repeat directive. 
+6.	Create a technology array and add 4 to 5 technologies object (Technology Name, Likes and Dislike fields) and display the data into view with two buttons “Like” and “Dislike” using ng-repeat and then click on respective button Like or Dislike view should get incremented and display the numbers in the view.
+7.	Set the uppercase filter to name filed and number filter to salary filed and add an textbox(name: Row to Display, type: number, minimum value: 0 and maximum value: 5) to limit the employee row display in the view. Use pipe and limitTo property in ng-repeat to display the data as per the number entered in the textbox.
+8.	Sort the employee filed using orderBy filter
+    a.	Make the table header as clickable (ng-click) and sort the data.
+9.	Add a testbox(Search) to search employee data, when user enters a text in the textbox, in the table view it should display only matched employee data (using Search filter). --Done
+10.	Add a checkbox to Hide/Show the Salary column of the employee (use ng-hide/ng-show)
+    a.	When checkbox checked, hide the salary column.
+    b.	When checkbox unchecked, show the salary column.
+11.	Create two html page “EmployeeTable.html” and EmployeeList.html”. (Use ng-include directive)
+    a.	Create a view to display employee data in a tabular format in “EmployeeTable.html” page
+    b.	Create a view to display employee data in unordered list in “EmployeeList.html” page.
+    c.	In Home.html page create a dropdown list as Table and List. 
+        i.	When user select Table should display the employee data in table format (should load/use “EmployeeTable.html”)
+        ii.	When user select List should display the employee data in unordered format (should load/use “EmployeeList.html”)
+12.	Use angular routing to build a single page application and navigate to the page on click on it.
+    Following views:
+    a.	Home
+    b.	Employee Table
+    c.	Employee List
+13.	Optional (No Database interaction)
+    a.	Create a CRUD operation for employee data (Insert, update and delete) to view.
+    b.	In View add 4 textbox (First Name, Last Name, Gender and Salary) and one button (Add- to add the new employee data to the view)
+    c.	Display the employee data in a table format with Edit and Delete link button to perform update or to delete the employee data.
+
