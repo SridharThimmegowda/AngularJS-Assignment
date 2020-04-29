@@ -1,0 +1,70 @@
+ body {
+    font-family: Arial;
+    background: #ffffff;
+    padding: 10px;
+}
+
+/*table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+} */
+
+/*This class displays the UP arrow*/
+.arrow-up {
+     width: 0;
+     height: 0;
+     border-left: 5px solid transparent;
+     border-right: 5px solid transparent;
+     border-bottom: 10px solid black;
+     display:inline-block;
+}
+
+/*This class displays the DOWN arrow*/
+.arrow-down {
+     width: 0;
+     height: 0;
+     border-left: 5px solid transparent;
+     border-right: 5px solid transparent;
+     border-top: 10px solid black;
+     display:inline-block;
+}
+
+/* .header {
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    background-color: #BDBDBD;
+}
+
+.footer {
+    background-color: #BDBDBD;
+    text-align: center;
+}
+
+.leftMenu {
+    height: 500px;
+    background-color: #D8D8D8;
+    width: 150px;
+} */
+
+.mainContent {
+    height: 100%;
+    background: #ffffff;
+    width: 100%;
+}
+
+a{
+    display:block;
+    padding:5px;
+    text-decoration: none;
+}

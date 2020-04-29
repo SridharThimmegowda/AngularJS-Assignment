@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myEmployeeRouteModule">
+<head>
+    <title></title>
+    <link href="/Styles/Styles.css" rel="stylesheet" />
+    <link href="/Styles/bootstrap.min.css" rel="stylesheet" />
+    <script src="/Scripts/angular.min.js"></script>
+    <script src="/Scripts/angular-ui-router.min.js"></script>
+
+    <!-- <script src="http://code.angularjs.org/1.2.13/angular.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script> -->
+    
+    <script src="/Scripts/EmpApp.js"></script>
+    <script src="/Scripts/app.js"></script>
+    
+</head>
+<body>    
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <a class="navbar-brand" ui-sref="home">Home</a>
+        <a class="navbar-brand" ui-sref="employeetable">Employee Table</a>
+        <a class="navbar-brand" ui-sref="employeelist">Employee List</a> 
+        <a class="navbar-brand" ui-sref="employeecrud">Employee CRUD</a> 
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Name"
+            ng-model="searchText" aria-label="Search">
+          </form>         
+    </nav>
+    <div class="mainContent">
+        <div ui-view></div>
+    </div>        
+</body>
+</html>
